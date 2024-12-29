@@ -1,0 +1,324 @@
+@use "all";
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-green {
+    background-color: rgb(33, 95, 61);
+}
+
+.bg-b {
+    background-color: blueviolet;
+}
+
+.q {
+    list-style: none;
+
+    & a {
+        text-decoration: none;
+        padding: 1rem;
+        color: black;
+    }
+}
+
+.q1 {
+    list-style: none;
+
+    & a {
+        text-decoration: none;
+        padding: 1rem;
+        color: purple;
+    }
+}
+
+.q2 {
+    text-decoration: none;
+    color: white;
+    padding-top: 1rem !important;
+    padding-left: 0.5rem;
+}
+
+.decore {
+    text-decoration: none;
+}
+
+.p {
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    color: white !important;
+    border-radius: 7px;
+    padding: 0.5rem 0.5rem !important;
+}
+
+.o {
+    padding: 0 !important;
+}
+
+.B {
+    text-decoration: none;
+    color: white;
+}
+
+.B1 {
+    list-style: none;
+
+    & a {
+        text-decoration: none;
+    }
+}
+
+.border1 {
+    border: 1px solid darkmagenta;
+    border-radius: 7rem;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.g {
+    list-style: none;
+
+    & a {
+        text-decoration: none;
+        padding: 1rem;
+        color: white;
+    }
+}
+
+.border2 {
+    border: 1px solid gold;
+    border-radius: 10rem;
+    background-color: rgb(46, 45, 45) !important;
+    color: gold !important;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.border4 {
+    border: 1px solid rgb(252, 148, 182);
+    border-radius: 10rem;
+    color: rgb(252, 148, 182) !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+
+}
+
+.border5 {
+    border: 1px solid white;
+    background-color: white;
+    color: blueviolet !important;
+    border-radius: 4rem;
+    padding: 0.5rem 0.5rem !important;
+}
+
+.border-w {
+    border: 1px solid white;
+    color: rgb(33, 95, 61) !important;
+    background-color: white;
+}
+.border6{
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius:4px;
+}
+.border7{
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding:0.5rem 0.5rem;
+}
+.border8{
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    color: white !important;
+    background-color: blueviolet;
+    padding: 0.75rem !important;
+}
+.border9{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0.35rem 0.35rem;
+}
+.ron {
+    border-radius: 2px !important;
+}
+
+.design {
+    list-style: none;
+
+    & a {
+        text-decoration: none;
+        padding: 1rem;
+        color: black;
+    }
+}
+
+.design1 {
+    list-style: none;
+
+    & a {
+        text-decoration: none;
+        padding: 1rem;
+        color: rgb(252, 148, 182);
+    }
+}
+
+.design2 {
+    list-style: none;
+
+    & a {
+        text-decoration: none;
+        padding: 1rem;
+        color: black;
+    }
+}
+
+.design3 {
+    list-style: none;
+
+    & a {
+        text-decoration: none;
+        padding: 1rem;
+    }
+}
+
+.design4 {
+    list-style: none !important;
+
+    & a {
+        text-decoration: none !important;
+        color: white;
+        padding: 1rem !important;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+        border-radius: 7px;
+    }
+}
+
+.design5 {
+    list-style: none;
+
+    & a {
+        text-decoration: none;
+        color: white;
+        padding: 1rem ;
+    }
+}
+.design6{
+    list-style: none;
+    & a{
+        text-decoration: none;
+        color: black;
+        padding: 2rem;
+    }
+}
+.design7{
+    list-style: none;
+    & a{
+        text-decoration: none;
+        color: black;
+        padding: 1rem;
+    }
+}
+.design8{
+    
+    list-style: none;
+    & a{
+        text-decoration: none;
+        color: black;
+        padding: 1rem;
+        margin: 0;
+        padding-right: 4rem;
+    }
+}
+.design9{
+    list-style: none;
+    & a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.wh{
+    width: 2rem;
+    height: 2rem;
+}
+.pl-6 {
+    padding-right: 30rem !important;
+    padding-top: 0.65rem !important;
+}
+
+.pt-5 {
+    padding-top: 0.65rem !important;
+}
+.pt-0{
+    padding-top: 0;
+}
+.pl-5 {
+    padding-left: 1.8rem !important;
+}
+.pl-7{
+    padding-left: 5rem;
+}
+.pr-8{
+    padding-right: 38rem;
+}
+.pr-5 {
+    padding-right: 2rem !important;
+}
+
+.pr-3 {
+    padding-right: 25rem !important;
+}
+
+.px-8 {
+    padding-left: 6rem !important;
+    padding-right: 6rem !important;
+}
+
+.px-9 {
+    padding-left: 3rem ;
+    padding-right: 3rem ;
+}
+.px-91 {
+    padding-left: 0 ;
+    padding-right: 3rem ;
+}
+
+.text-dec {
+    text-decoration: none;
+    color: black;
+}
+.size {
+    width: 45px;
+    height: 45px;
+}
+.size1 {
+    width: 30px;
+    height: 30px;
+}
+.size1-1 {
+    width: 30px;
+    height: 35px;
+}
+.size2{
+    width: 30px;
+    height: 35px;
+}
+.span{
+    border: 10px solid black;
+    border-color:black transparent  transparent  transparent ;
+}
+.gap1{
+    gap: 1rem;
+}

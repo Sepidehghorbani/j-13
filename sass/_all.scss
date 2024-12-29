@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box !important;// تعیین میکند عرض عنصر تا بردر آن محاسبه میشود
+}
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+img{
+    max-width: 100% !important;
+}
+.static{
+    position: static;
+}
+.p-4{
+    padding: 1rem;
+}
+.px-4{
+    padding-right: 5rem !important;
+    padding-left : 5rem !important;
+}
+.py-1{
+    padding-top: 0.51rem;
+    padding-bottom: 0.51rem;
+}
+.pt-1{
+    padding-top: 0.5rem;
+}
+.pl-4{
+    padding-left: 0 !important;
+}
+.fixed{
+    position: fixed;
+} 
+.sticky{
+    position: sticky;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.top-0{
+    top: 0;
+} 
+.left-0{
+    left: 0;
+}
+.border{
+    border: 1px solid #212121;
+}
+.bg-blue-100{
+    background-color: lightblue;
+}
+.bg-red-100{
+    background-color: pink;
+}
+
+.w-full{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.m-0{
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-row-reverse{
+    flex-direction: row-reverse;
+}
+.flex-column{
+    flex-direction: column !important;
+}
+.flex-column-reverse{
+    flex-direction: column-reverse;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.items-start{
+    align-items: flex-start;
+}
+.items-center{
+    align-items: center;
+}
+.items-end{
+    align-items: flex-end;
+}
+.gap-1{
+    gap: 0.5rem;
+}
+
+
+
